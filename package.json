@@ -1,6 +1,6 @@
 {
   "name": "diehard",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "author": "Troy Goode <troygoode@gmail.com> (https://github.com/troygoode/)",
   "description": "Gracefully clean up your program at termination with multiple sync and/or async handlers. Wraps the `death` npm module.",
   "keywords": [
@@ -30,13 +30,13 @@
     "url": "git://github.com/troygoode/node-diehard.git"
   },
   "dependencies": {
-    "async": "^2.5",
-    "death": "^1.1",
-    "debug": "^3.1"
+    "async": "^3",
+    "death": "^1",
+    "debug": "^3"
   },
   "devDependencies": {
     "jslint": "^0.12.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5"
   },
   "scripts": {
     "lint": "find . -path ./node_modules -prune -o -name '*.js' -print0 -o -name '*.json' -print0 | xargs -0 node node_modules/jslint/bin/jslint",
